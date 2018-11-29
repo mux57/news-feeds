@@ -6,8 +6,6 @@ prerequisite
 4. seeding data run `rails db:seed`
 5. bundle install
 
-Test with postman
-
 1. post_controller.rb
 	-> index, show, create, update, destory
 2. comment_controller.rb
@@ -31,7 +29,3 @@ Test with postman
 	b. lib/emails/email_sender.rb <!-- A dummy code, Actual Logic can more complex -->
 5. To send emails recent 50 posts
 		a: NewsFeedController#send_emails
-
-
-
-
